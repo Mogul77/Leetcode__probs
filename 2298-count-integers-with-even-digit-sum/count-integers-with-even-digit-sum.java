@@ -10,7 +10,7 @@ class Solution {
                 temp = temp/10;
             }
                 if(sum%2==0){
-                    System.out.print(sum+" ");
+                   // System.out.print(sum+" ");
                     count++;
                 }
             
