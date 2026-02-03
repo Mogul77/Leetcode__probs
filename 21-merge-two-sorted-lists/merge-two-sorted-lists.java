@@ -21,9 +21,9 @@ class Solution {
         }
         else{
             head = list2;
-            list2 = list2.next;
+            list2=list2.next;
         }
-        ListNode temp  = head;
+        ListNode temp = head;
         while(list1!=null && list2!=null){
             if(list1.val<list2.val){
                 temp.next = list1;
@@ -37,8 +37,9 @@ class Solution {
         }
         if(list1!=null)
         temp.next=list1;
-       else
+        else
         temp.next=list2;
+
         return head;
     }
 }
